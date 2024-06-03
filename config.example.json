@@ -1,0 +1,50 @@
+{
+  "cloud_sdk_ak": "",
+  "cloud_sdk_sk": "",
+  "zone_id": "",
+  "recordset_id": "",
+  "name": "",
+  "rate": 60,
+  "url_pool": {
+    "https://ipapi.co/json/": {
+      "type": "json",
+      "key": "ip"
+    },
+    "http://ipinfo.io/": {
+      "type": "json",
+      "key": "ip"
+    },
+    "https://vv.video.qq.com/checktime?otype=ojson": {
+      "type": "json",
+      "key": "ip"
+    },
+    "https://ip.useragentinfo.com/json": {
+      "type": "json",
+      "key": "ip"
+    },
+    "https://api.uomg.com/api/visitor.info?skey=1": {
+      "type": "json",
+      "key": "ip"
+    },
+    "https://test.ipw.cn/api/ip/myip?json": {
+      "type": "json",
+      "key": "ip"
+    },
+    "https://ipv4.my.ipinfo.app/api/ipDetails.php": {
+      "type": "json",
+      "key": "ip"
+    },
+    "http://ip-api.com/json": {
+      "type": "json",
+      "key": "query"
+    },
+    "https://httpbin.org/ip": {
+      "type": "json",
+      "key": "origin"
+    },
+    "https://cdid.c-ctrip.com/model-poc2/h": {
+      "type": "text",
+      "key": 0
+    }
+  }
+}
